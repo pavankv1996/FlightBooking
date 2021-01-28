@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FlightBooking]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FlightSearch(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.FlightBooking.testCases.TC_Search">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Search"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.FlightBooking.testCases.TC_Search -->
+    </classes>
+  </test> <!-- FlightSearch(failed) -->
+</suite> <!-- Failed suite [FlightBooking] -->
